@@ -1,0 +1,27 @@
+{
+  "name": "app-ejs-mvc-mysql2",
+  "version": "1.0.0",
+  "description": "Modern app using node/express using asynchronous, mysql2, ejs powered by MVC pattern",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "asynchronous",
+    "mvc",
+    "mysql2"
+  ],
+  "author": "Gad Iradufasha",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
